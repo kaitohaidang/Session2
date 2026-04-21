@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Bai1 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int n = scanner.nextInt();
+        long sum=0;
+        if (n<0 || n==0) System.out.println("So nhap vao khong hop le");
+        else for (int i=1;i<n;i++) {
+            sum += n;
+        }
+        System.out.println("tong cac so tu 1 den "+n+" la "+sum);
+    }
+}
